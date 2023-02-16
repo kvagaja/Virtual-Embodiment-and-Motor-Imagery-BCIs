@@ -79,6 +79,7 @@ public class GetStimulus : MonoBehaviour
 				rightarrow.SetActive(false);
 				Movehands.RH = false;
 				Movehands.LH = false;
+				Movehands.IDLE = true;
 				break;
 			case 33282:
 			case 6://beep
@@ -87,6 +88,7 @@ public class GetStimulus : MonoBehaviour
 				rightarrow.SetActive(false);
 				Movehands.RH = false;
 				Movehands.LH = false;
+				Movehands.IDLE = true;
 				break;
 			case 786:
 			case 5:  // show cross
@@ -95,6 +97,7 @@ public class GetStimulus : MonoBehaviour
 				rightarrow.SetActive(false);
 				Movehands.RH = false;
 				Movehands.LH = false;
+				Movehands.IDLE = true;
 				break;
 			case 770:
 			case 8:// right arrow
@@ -103,6 +106,7 @@ public class GetStimulus : MonoBehaviour
 				rightarrow.SetActive(true);
 				Movehands.RH = true;
 				Movehands.LH = false;
+				Movehands.IDLE = false;
 				break;
 			case 769:
 			case 7:// left arrow
@@ -111,6 +115,7 @@ public class GetStimulus : MonoBehaviour
 				rightarrow.SetActive(false);
 				Movehands.RH = false;
 				Movehands.LH = true;
+				Movehands.IDLE = false;
 				break;
 			case 781:
 			case 9:// hide arrow
@@ -124,6 +129,7 @@ public class GetStimulus : MonoBehaviour
 				rightarrow.SetActive(false);
 				//Movehands.RH = false;
 				//Movehands.LH = false;
+				//Movehands.IDLE = true;
 				break;
 		}
 	}

@@ -571,7 +571,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0066f504235c114586dff370cba64f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _maxTimeOut: 5
+  _maxTimeOut: 20
   _pressKeyToFinish: 0
   _avoidable: 1
   _instructionsSpanish: []
@@ -1167,7 +1167,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1411516550990969898, guid: 1c0a1103aa90aff45a648827e87681a5, type: 3}
       propertyPath: orthographic
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1411516550990969898, guid: 1c0a1103aa90aff45a648827e87681a5, type: 3}
       propertyPath: far clip plane
@@ -1179,27 +1179,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1411516550990969898, guid: 1c0a1103aa90aff45a648827e87681a5, type: 3}
       propertyPath: near clip plane
-      value: 0.1
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 1411516550990969898, guid: 1c0a1103aa90aff45a648827e87681a5, type: 3}
       propertyPath: orthographic size
-      value: 0.8660254
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 1411516550990969898, guid: 1c0a1103aa90aff45a648827e87681a5, type: 3}
       propertyPath: m_BackGroundColor.a
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1411516550990969898, guid: 1c0a1103aa90aff45a648827e87681a5, type: 3}
       propertyPath: m_BackGroundColor.b
-      value: 0.278431
+      value: 0.4745098
       objectReference: {fileID: 0}
     - target: {fileID: 1411516550990969898, guid: 1c0a1103aa90aff45a648827e87681a5, type: 3}
       propertyPath: m_BackGroundColor.g
-      value: 0.278431
+      value: 0.3019608
       objectReference: {fileID: 0}
     - target: {fileID: 1411516550990969898, guid: 1c0a1103aa90aff45a648827e87681a5, type: 3}
       propertyPath: m_BackGroundColor.r
-      value: 0.278431
+      value: 0.19215687
       objectReference: {fileID: 0}
     - target: {fileID: 1411516550990969898, guid: 1c0a1103aa90aff45a648827e87681a5, type: 3}
       propertyPath: m_projectionMatrixMode
@@ -1401,7 +1401,7 @@ MonoBehaviour:
   _instructionsAudioSource: {fileID: 0}
   _instructionsVolume: 1
   _instructionsTimePause: 0.5
-  prefab: {fileID: 8971817292544004465, guid: ef8e94b8941bd374dbc851f4bb3387d3, type: 3}
+  prefab: {fileID: 506854244402096105, guid: 57ec8cd46bad9b9479f838097ea43bcb, type: 3}
   parent: {fileID: 691067503}
 --- !u!1 &469226696
 GameObject:
@@ -3678,7 +3678,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Animator: {fileID: 4838864946473329362}
-  _showControlsBody: 1
+  _showControlsBody: 0
   _showControlsFingersLeftHand: 1
   _showControlsFingersRightHand: 1
   _showControlsFace: 0

@@ -16,18 +16,18 @@ public class Movehands : MonoBehaviour {
     void Update() {
         if(Input.GetKeyDown("d") || RH) 
         {
-            anim.Play("RH_close");
+            anim.Play("RH_close_copy");
             Debug.Log("RH");
         }     
         if(Input.GetKeyDown("a") || LH) 
         {
-            anim.Play("LH_close");
+            anim.Play("LH_close_copy");
             Debug.Log("LH");
         }
         if (Input.GetKeyDown("w") || IDLE) 
         {
-            anim.Play("Sitting_open");
-            Debug.Log("Sitting_open");
+            anim.Play("Sitting_open_copy");
+            Debug.Log("Sitting_open_copy");
         }
     }
 }

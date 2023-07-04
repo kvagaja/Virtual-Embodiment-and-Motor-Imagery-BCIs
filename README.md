@@ -1,2 +1,5 @@
-# Thesis
-MI-BCI project in VR
+# Impact of Virtual Embodiment on Motor Imagery Brain Computer Interfaces in Virtual Reality
+
+Background: Virtual reality (VR) can induce a sense of embodiment (SoE), in which individuals perceive a virtual avatar as their own body. A stronger SoE has been linked to enhanced motor-imagery (MI) skills and brain-computer interface performance. However, SoE has only been investigated in conjunction with MI training, making it difficult to isolate the specific effects of embodiment on MI-BCIs. This study aimed to investigate the impact of SoE on MI-evoked brain patterns by inducing SoE prior to MI training. 
+
+Methods: We employed a between-subjects design with 26 healthy participants. The experimental group underwent a 5-minute embodiment induction phase before MI training in VR, while the control group remained intentionally disembodied. We analyzed differences in event-related desynchronization (ERD) patterns of the EEG between groups, offline BCI performance, and the relationship between reported SoE scores and ERD patterns. Check https://www.youtube.com/watch?v=Wa4JuuYvUkY 
